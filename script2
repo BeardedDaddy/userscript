@@ -22,7 +22,7 @@ network_tags=$(curl -H "${METADATA_FLAVOR_HEADER}" -s "${METADATA_URL}/instance/
 cat <<EOF > /var/www/html/index.html
 <html><body>
 <h2>Welcome to Theo WAF's Class 5.5 Zion.</h2>
-<h3>Created with a direct input startup script!</h3>
+<h3>Created with Zion Class 5.5.</h3>
 <p><b>Instance Name:</b> $(hostname -f)</p>
 <p><b>Instance Private IP Address: </b> $local_ipv4</p>
 <p><b>Zone: </b> $zone</p>

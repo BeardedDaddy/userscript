@@ -29,5 +29,7 @@ cat <<EOF > /var/www/html/index.html
 <p><b>Zone: </b> $zone</p>
 <p><b>Project ID:</b> $project_id</p>
 <p><b>Network Tags:</b> $network_tags</p>
+<h2>HTML Image</h2>
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
 </body></html>
 EOF

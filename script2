@@ -29,6 +29,8 @@ cat <<EOF > /var/www/html/index.html
 <p><b>Zone: </b> $zone</p>
 <p><b>Project ID:</b> $project_id</p>
 <p><b>Network Tags:</b> $network_tags</p>
+</body></html>
+EOF
 <html>
 <body>
 
@@ -37,5 +39,3 @@ cat <<EOF > /var/www/html/index.html
 
 </body>
 </html>
-</body></html>
-EOF

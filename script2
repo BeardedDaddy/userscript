@@ -21,11 +21,7 @@ network_tags=$(curl -H "${METADATA_FLAVOR_HEADER}" -s "${METADATA_URL}/instance/
 # Create a simple HTML page and include instance details
 cat <<EOF > /var/www/html/index.html
 <html><body>
-<a href="default.asp"> 
-<img src="https://media.giphy.com/media/iVUxDbXn67yncpZpCz/giphy.gif?cid=ecf05e47ie4w9igjhsofrpgjlnary1ho32xpww77zsjbasa3&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="At the Beach." width="500" height="600">
-</a>
 <h2>Welcome to Theo WAF's Class 5.5 Zion.</h2>
-<a class="_1Q-28QiIbiMcgz_OiDW2hh" href="https://giphy.com/gifs/squareenix-ff-ffvii-finalfantasy-p7VF0j02l2zl5fPUYJ?utm_source=iframe&amp;utm_medium=embed&amp;utm_campaign=Embeds&amp;utm_term=http%3A%2F%2F104.198.66.253%2F" target="_blank" data-gif=""></a>
 <h3>Created with Zion Class 5.5.</h3>
 <p><b>Instance Name:</b> $(hostname -f)</p>
 <p><b>Instance Private IP Address: </b> $local_ipv4</p>
